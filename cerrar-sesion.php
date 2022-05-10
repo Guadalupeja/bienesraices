@@ -1,0 +1,4 @@
+<?php 
+session_start();
+$_SESSION = []; //PARA CERRAR SESION SE REINICIA EL ARREGLO DE LA SUPERGLOBAL SESION Y SE DEJA VACÍO
+header("Location: /");
